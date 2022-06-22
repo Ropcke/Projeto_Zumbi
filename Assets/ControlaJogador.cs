@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class ControlaJogador : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float Velocidade = 10;
 
     // Update is called once per frame
     void Update()
@@ -18,6 +14,6 @@ public class ControlaJogador : MonoBehaviour
 
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
 
-        transform.Translate(direcao * Time.deltaTime);
+        transform.Translate(direcao * Velocidade * Time.deltaTime);
     }
 }
