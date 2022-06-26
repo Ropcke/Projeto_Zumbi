@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 7856258580885524550}
   - component: {fileID: 7856258580885524551}
   - component: {fileID: 7856258580885524548}
+  - component: {fileID: -1997656312939823272}
+  - component: {fileID: -5329610834052298698}
   m_Layer: 0
-  m_Name: Prego
+  m_Name: Bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7856258580885524549}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.72254074, z: -0, w: 0.6913284}
   m_LocalPosition: {x: -22.69, y: 2.256, z: -12.065}
-  m_LocalScale: {x: 0.24249835, y: 0.044124186, z: 0.06049657}
+  m_LocalScale: {x: -0.021196539, y: 0.030188445, z: 0.23201038}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 92.529, z: 0}
 --- !u!33 &7856258580885524550
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -97,3 +99,32 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1997656312939823272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856258580885524549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a83e3bd3f6682428c5682a24061c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Velocidade: 30
+--- !u!54 &-5329610834052298698
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856258580885524549}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
