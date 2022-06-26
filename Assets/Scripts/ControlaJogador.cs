@@ -34,5 +34,8 @@ public class ControlaJogador : MonoBehaviour {
         GetComponent<Rigidbody>().MovePosition
             (GetComponent<Rigidbody>().position + 
             (direcao * Velocidade * Time.deltaTime));
+
+        Quaternion novaRotacao = Quaternion.LookRotation(direcao);
+        GetComponent<Rigidbody>().MoveRotation(novaRotacao);
     }
 }
