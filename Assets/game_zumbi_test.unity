@@ -403,6 +403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Canto (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f1c4e7cad77043d4eb1da10b11215f6a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f1c4e7cad77043d4eb1da10b11215f6a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -555,6 +559,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: b1774bd68b7e19545aa0aa03f5d6a8ec, type: 3}
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b1774bd68b7e19545aa0aa03f5d6a8ec, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b1774bd68b7e19545aa0aa03f5d6a8ec, type: 3}
       propertyPath: m_RootOrder
@@ -976,6 +984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Canto
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f1c4e7cad77043d4eb1da10b11215f6a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f1c4e7cad77043d4eb1da10b11215f6a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1044,6 +1056,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocidade: 10
+  MascaraChao:
+    serializedVersion: 2
+    m_Bits: 264
 --- !u!95 &1719189409
 Animator:
   serializedVersion: 4
