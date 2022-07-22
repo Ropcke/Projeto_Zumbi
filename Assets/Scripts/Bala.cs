@@ -6,8 +6,8 @@ public class Bala : MonoBehaviour
 {
     public float Velocidade = 28;
     private Rigidbody rigidbodyBala;
-    
-    void Private()
+
+    private void Start()
     {
         rigidbodyBala = GetComponent<Rigidbody>();
     }
